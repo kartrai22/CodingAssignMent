@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-14T22:41:04 IST" name="Selenium-RestSuite" finished-at="2025-02-14T22:41:55 IST" duration-ms="50505">
+    <groups>
+    </groups>
+    <test started-at="2025-02-14T22:41:04 IST" name="Test" finished-at="2025-02-14T22:41:55 IST" duration-ms="50505">
+      <class name="Tests.ApiGeneratorTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.ApiGeneratorTest@2b91004a]" started-at="2025-02-14T22:41:05 IST" name="setUp" finished-at="2025-02-14T22:41:09 IST" duration-ms="3927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testApiGeneration()[pri:0, instance:Tests.ApiGeneratorTest@2b91004a]" started-at="2025-02-14T22:41:09 IST" name="testApiGeneration" finished-at="2025-02-14T22:41:51 IST" duration-ms="41911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApiGeneration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.ApiGeneratorTest@2b91004a]" started-at="2025-02-14T22:41:51 IST" name="tearDown" finished-at="2025-02-14T22:41:52 IST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.ApiGeneratorTest -->
+      <class name="Tests.compareJsonTest">
+        <test-method signature="testJsonComparison()[pri:0, instance:Tests.compareJsonTest@10feca44]" started-at="2025-02-14T22:41:05 IST" name="testJsonComparison" finished-at="2025-02-14T22:41:05 IST" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJsonComparison -->
+      </class> <!-- Tests.compareJsonTest -->
+      <class name="Tests.APITest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.APITest@20ccf40b]" started-at="2025-02-14T22:41:52 IST" name="setUp" finished-at="2025-02-14T22:41:52 IST" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetRequest()[pri:0, instance:Tests.APITest@20ccf40b]" started-at="2025-02-14T22:41:52 IST" name="testGetRequest" finished-at="2025-02-14T22:41:55 IST" duration-ms="2934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRequest -->
+      </class> <!-- Tests.APITest -->
+    </test> <!-- Test -->
+  </suite> <!-- Selenium-RestSuite -->
+</testng-results>
